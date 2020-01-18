@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ERR_MSG_TITLE" xml:space="preserve">
+    <value>错误</value>
+    <comment>消息弹窗内容，错误弹窗对话框标题</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="face_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\face_border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INFO_MSG_TITLE" xml:space="preserve">
+    <value>提示！</value>
+    <comment>消息弹窗内容，信息提示弹窗对话框标题</comment>
+  </data>
+  <data name="Module1.Err_MSG_Text" xml:space="preserve">
+    <value>必要的配置文件丢失或损坏，无法继续，单击"确定"退出。</value>
+    <comment>消息弹窗内容，文件不存在时弹窗对话框的内容</comment>
+  </data>
+  <data name="Info.Form.Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info.Form.Main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tiperror" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tiperror.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipnorm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipnorm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipques" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipques.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tipwarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipwarn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btndown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btndown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnhover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnhover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnnormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnnormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_close_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_close_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_close_highlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_close_highlight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_close_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_close_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_focus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info.Form.Setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info.Form.Setting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LighterTipsButton_Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LighterTipsButton_Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LighterTipsButton_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LighterTipsButton_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LighterTipsButton_Normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LighterTipsButton_Normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minsize_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minsize_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minsize_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minsize_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minsize_press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minsize_press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msg_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msg_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msg_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msg_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msg_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\msg_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingTitle_ICO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SettingTitle_ICO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tips_bk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tips_bk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>程序发生未知错误，请单击"确定"退出。</value>
+    <comment>消息弹框内容，所有未知错误内容</comment>
+  </data>
+  <data name="Info.Form.Setting.ChangeSuccess" xml:space="preserve">
+    <value>登录信息修改成功，请牢记 新用户名: {0} 新密码: {1}</value>
+    <comment>消息弹框内容，设置窗口中修改成功出现的提示</comment>
+  </data>
+  <data name="Info.Form.Setting.TextBox_New_Password1.Text.Length &lt; 6" xml:space="preserve">
+    <value>密码不得少于6个字符，请重新输入。</value>
+    <comment>消息弹框内容，设置窗口中验证密码小于6个字符出现的提示</comment>
+  </data>
+  <data name="Info.Form.Setting.TextBox_New_Password2.Text &lt;&gt; TextBox_New_Password1.Text" xml:space="preserve">
+    <value>两次输入的密码不一致，请核实后重新输入。</value>
+    <comment>消息弹框内容，设置窗口中两次密码输入不一致出现的提示</comment>
+  </data>
+  <data name="Info.Form.Setting.TextBox_New_Username.Text.Length &lt; 3" xml:space="preserve">
+    <value>用户名不得小于3个字符，请重新输入。</value>
+    <comment>消息弹框内容，设置窗口中验证用户名小于2个字符出现的提示</comment>
+  </data>
+  <data name="InvalidOperationException" xml:space="preserve">
+    <value>未在本地计算机上注册"Microsoft.Jet.Oledb.4.0"提供程序，程序终止。</value>
+    <comment>消息弹框内容，数据库连接过程中的错误</comment>
+  </data>
+  <data name="Login_user.pass_isnot" xml:space="preserve">
+    <value>登录失败，输入的用户名或密码错误，请单击"确定"重试。</value>
+    <comment>消息弹框内容，登录窗口验证用户名和密码未通过</comment>
+  </data>
+  <data name="Main.AddFailed" xml:space="preserve">
+    <value>数据 {0} 添加失败，已存在此数据，点击"确定"继续。</value>
+    <comment>消息弹框内容，Main 窗体中添加数据失败出现的提示</comment>
+  </data>
+  <data name="Main.AddSuccess" xml:space="preserve">
+    <value>数据 {0} 添加成功，点击"确定"继续。</value>
+    <comment>消息弹框内容，Main 窗体中添加数据成功出现的提示</comment>
+  </data>
+  <data name="Main.ChangeSuccess" xml:space="preserve">
+    <value>数据 {0} 修改成功，点击"确定"继续。</value>
+    <comment>消息弹框内容，Main 窗体中修改数据成功出现的提示</comment>
+  </data>
+  <data name="Main.DeleteSuccess" xml:space="preserve">
+    <value>数据 {0} 删除成功，点击"确定"继续。</value>
+    <comment>消息弹框内容，Main 窗体中删除数据成功出现的提示</comment>
+  </data>
+  <data name="Main.TextBox_Compellation.Text &lt;&gt; TextBox_Search_Compellation.Text" xml:space="preserve">
+    <value>在数据库中未查询到数据 {0} 的相关信息，请查看输入是否有误或当前数据未添加。</value>
+    <comment>消息弹框内容，Main 窗体中未查询到数据出现的提示</comment>
+  </data>
+  <data name="Main.TextBox_Compellation.Text.Length &lt; 1" xml:space="preserve">
+    <value>姓名栏不能为空(必写)，请填写完整，点击"确定"继续。</value>
+    <comment>消息弹框内容，Main 窗体中添加数据姓名栏目为空出现的提示</comment>
+  </data>
+  <data name="Main.TextBox_Search_Compellation.Text.Length &lt; 1" xml:space="preserve">
+    <value>需要查询内容不能为空，请填写完整，点击"确定"继续。</value>
+    <comment>消息弹框内容，Main 窗体中查询内容未输入出现的提示</comment>
+  </data>
+  <data name="OleDbException" xml:space="preserve">
+    <value>配置信息出现错误，程序无法继续，请单击"确定"退出。</value>
+    <comment>消息弹框内容，数据库操作过程中的错误</comment>
+  </data>
+  <data name="Main.DeleteYesNO" xml:space="preserve">
+    <value>你确定要删除数据 {0} 吗？点击"确定"删除。"关闭"窗口取消。</value>
+    <comment>消息弹框内容，Main 窗体中是否删除数据出现的提示</comment>
+  </data>
+  <data name="sysbtn_close_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sysbtn_close_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sysbtn_close_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sysbtn_close_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sysbtn_close_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sysbtn_close_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sysbtn_min_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sysbtn_min_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sysbtn_min_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sysbtn_min_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sysbtn_min_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sysbtn_min_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainIco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainIco.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reg.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info.PhotoPrew_form" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info.PhotoPrew_form.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PhotoPrew_form.picbck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PhotoPrew_form.picbck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info.Form.Setting.Trim(TextBox_Checkcode.Text) &lt;&gt; checkcodestring" xml:space="preserve">
+    <value>验证码填写错误，无法继续，请正确填写后重试。</value>
+    <comment>消息弹框内容，设置窗口中验证码错误出现的提示</comment>
+  </data>
+  <data name="Info.Form.Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info.Form.Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info.Form.Register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info.Form.Register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
