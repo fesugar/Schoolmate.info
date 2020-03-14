@@ -51,3 +51,6 @@
 
  数据库文件一旦创建，将只能在本机当前系统环境下进行数据连接
 访问操作，其他情况将无法验证数据库密码导致无法使用。
+
+
+![同学信息管理工具](https://github.com/fesugar/Schoolmate.info/raw/master/screen.JPG)
