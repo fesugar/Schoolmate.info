@@ -1,4 +1,24 @@
-﻿Imports System.Xml
+﻿#Region "版 本 注 释 "
+' ----------------------------------------------------------------
+' 项目名称 ：Schoolmate.Database.Conn
+' 项目描述 ：数据库链接
+' 类 名 称 ：exe
+' 类 描 述 ：数据库加解密类
+' 命名空间 ：Schoolmate.Database.Conn
+' CLR 版本 ：4.0
+' 作    者 ：fesugar
+' 邮    箱 ：fesugar@fesugar.com
+' 创建时间 ：12:42 2020/3/16
+' 更新时间 ：12:42 2020/3/16
+' 版 本 号 ：v1.0.0.0
+' 参考文献 ：
+' *****************************************************************
+' * Copyright @ fesugar 2020. All rights reserved.
+' *****************************************************************
+' ----------------------------------------------------------------*
+#End Region
+
+Imports System.Xml
 Imports System.IO
 Imports System.Security.Cryptography
 Imports System.Security.Cryptography.Xml

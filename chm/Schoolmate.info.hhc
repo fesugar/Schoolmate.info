@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="用户指南">
+		<param name="Local" value="html\yonghuzhinan.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="简介">
+			<param name="Local" value="html\jianjie.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="功能概述">
+			<param name="Local" value="html\gongnenggaishu.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="操作实例">
+		<param name="Local" value="html\caozuoshili.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="注册用户">
+			<param name="Local" value="html\zhuceyonghu.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="用户登录">
+			<param name="Local" value="html\yonghudenglu.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="添加数据">
+			<param name="Local" value="html\tianjiashuju.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="查询数据">
+			<param name="Local" value="html\chaxunshuju.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="修改数据">
+			<param name="Local" value="html\xiugaishuju.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="删除数据">
+			<param name="Local" value="html\shanchushuju.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="设置登录信息">
+			<param name="Local" value="html\shezhidengluxinxi.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="隐藏功能">
+		<param name="Local" value="html\yincanggongneng.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="遍历数据">
+			<param name="Local" value="html\bianlishuju.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="解密xml配置文件">
+			<param name="Local" value="html\jiemixmlpeizhiwendang.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="关于">
+		<param name="Local" value="html\about.htm">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="许可协议">
+			<param name="Local" value="html\xukexieyi.htm">
+			<param name="ImageNumber" value="9">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

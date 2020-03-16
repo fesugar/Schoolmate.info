@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=gb2312">
+</META>
+<META NAME="save" CONTENT="history">
+</META>
+<title>操作实例：解密XML配置文件</title>
+<link rel="stylesheet" type="text/css" href="../local/Classic.css">
+</link>
+<script src="../local/script.js"></script>
+</head>
+<body>
+<input type="hidden" id="userDataCache" class="userDataStyle">
+</input>
+<input type="hidden" id="hiddenScrollOffset">
+</input>
+<img id="dropDownImage" style="display:none; height:0; width:0;" src="../local/drpdown.gif"></img><img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../local/drpdown_orange.gif"></img><img id="collapseImage" style="display:none; height:0; width:0;" src="../local/collapse.gif"></img><img id="expandImage" style="display:none; height:0; width:0;" src="../local/exp.gif"></img><img id="copyImage" style="display:none; height:0; width:0;" src="../local/copycode.gif"></img><img id="copyHoverImage" style="display:none; height:0; width:0;" src="../local/copycodeHighlight.gif"></img>
+<div id="header">
+  <h1>操作实例：解密XML配置文件</h1>
+</div>
+<div id="mainSection">
+  <div id="mainBody">
+    <p class="runningHeader"></p>
+    <p>本操作实例描述如何解密XML配置文件。</p>
+    <table class="alertTable" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="imgCell"><img class="embedded" src="../local/Important.gif"></img></td>
+        <td class="txtCell">重要事项： </td>
+      </tr>
+      <tr>
+        <td class="imgCell"></td>
+        <td class="alertCell"><p>软件基于 .NET 平台编写，需要 .NET 4.0 的运行环境支持。如果未安装对应的运行环境时可能会出现 &ldquo;0xc0000135&rdquo; 的错误提示。。</p></td>
+      </tr>
+    </table>
+    <h1 class="heading">先决条件</h1>
+    <div id="sectionSection0" class="section">
+      <p xmlns="">若要完成此操作实例，需要具备以下条件：</p>
+      <ul xmlns="">
+        <li class="unordered">保证 Microsoft .NET Framework 4 框架已经成功安装<b></b>。<br />
+          <br />
+        </li>
+        <li class="unordered"> 修改 Schoolmate.Database.Conn.dll 为 Schoolmate.Database.Conn.exe<br />
+        </li>
+      </ul>
+      </content>
+    </div>
+    <h1 class="heading">解密XML配置文件命令行选项</h1>
+    <div id="sectionSection1" class="section">
+      <p class="runningHeader"></p>
+      <p>解密xml配置文件语法是：</p>
+      <p><b></b>Schoolmate.Database.Conn.exe &lt; xmlfile &gt; &lt; model [ Encrypt or Decrypt ] &gt;</p>
+      <p>命令解释：</p>
+      <ul>
+        <li class="unordered"><b>xmlfile 命令</b>。需要加解密的xml文件。<br />
+          <br />
+        </li>
+        <li class="unordered"><b>model 命令</b>。加解密开关。（ Encrypt 加密 ） （ Decrypt 解密 ）<br />
+          <br />
+        </li>
+      </ul>
+      <p>下列示例对 XML 配置文件进行解密：</p>
+      <p>Schoolmate.Database.Conn.exe C:\Schoolmate.info\Schoolmate.conn.xml <span class="unordered">Decrypt</span></p>
+      <p>&nbsp;      </p>
+      <p>下表描述了如何使用命令选项。这些选项区分大小写。</p>
+      <p><b></b></p>
+    </div>
+      <table>
+        <tr>
+          <th colspan="1">选项</th>
+          <th colspan="1">参数</th>
+          <th colspan="1">说明</th>
+        </tr>
+        <tr>
+          <td colspan="1"><p><span class="unordered">Encrypt</span></p></td>
+          <td colspan="1"></td>
+          <td colspan="1"><p>对XML配置文件进行加密。</p>
+            <p>示例：</p>
+            <div class="code">
+              <pre>Schoolmate.Database.Conn C:\Schoolmate.info\Schoolmate.conn.xml<span class="unordered"> Encrypt</span></pre>
+            </div></td>
+        </tr>
+        <tr>
+          <td colspan="1"><p><span class="unordered">Decrypt</span></p></td>
+          <td colspan="1"></td>
+          <td colspan="1"><p>对XML配置文件进行解密。</p>
+            <p>示例：</p>
+            <div class="code">
+              <pre>Schoolmate.Database.Conn C:\Schoolmate.info\Schoolmate.conn.xml <span class="unordered">Decrypt</span></pre>
+            </div></td>
+        </tr>
+      </table>
+      <h1 class="heading">&nbsp;</h1>
+  </div>
+  <div id="footer">
+    <hr />
+    <p>T-Sugar 版权所有 &#9426; 2015。保留所有权利。 </p>
+    <p> 创建日期：2015-1-5</p>
+  </div>
+</div>
+</body>
+</html>
