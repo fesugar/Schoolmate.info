@@ -13,7 +13,7 @@
 ' 版 本 号 ：v1.0.0.0
 ' 参考文献 ：
 ' *****************************************************************
-' * Copyright @ fesugar 2020. All rights reserved.
+' * Copyright @ fesugar 2020.com. All rights reserved.
 ' *****************************************************************
 ' ----------------------------------------------------------------*
 #End Region
@@ -28,7 +28,7 @@ Imports System.Reflection
 <Assembly: AssemblyTitle("Conn for Schoolmate.info")> 
 <Assembly: AssemblyProduct("Schoolmate.Database.Conn .NET")> 
 <Assembly: AssemblyDescription("Schoolmate.Database.Conn .NET Framework 4")> 
-<Assembly: AssemblyCopyright("Copyright © 2014-2015 T-Sugar All rights reserved.")> 
+<Assembly: AssemblyCopyright("Copyright © 2014-2015 fesugar.com All rights reserved.")> 
 <Assembly: Runtime.CompilerServices.CompilationRelaxationsAttribute(8)> 
 
 

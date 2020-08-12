@@ -106,10 +106,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Schoolmate.Database.Conn, Version=4.3.210.110, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x86\Release\Schoolmate.Database.Conn.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -170,6 +166,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Schoolmate.Database.Conn\Schoolmate.Database.Conn.vbproj">
+      <Project>{f16d4496-8c5e-4ac1-871a-70dddc473672}</Project>
+      <Name>Schoolmate.Database.Conn</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Schoolmate.Database\Schoolmate.Database.vbproj">
       <Project>{4a1f9cf4-9d1c-41bb-be8e-27cd8763b197}</Project>
       <Name>Schoolmate.Database</Name>

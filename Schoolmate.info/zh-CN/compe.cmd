@@ -2,7 +2,7 @@
 
 echo off
 
-SET Tools_path="C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools"
+SET Tools_path="%ProgramFiles(x86)%\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools"
 
 echo 编译为.resources文件通过从命令行运行的 资源文件生成器(resgen.exe)
 
